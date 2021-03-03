@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel App</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>Travel App</h1>
+    <!-- replace this with the code for nav bar with the name of the app in the
+    middle -->
+    <form id="search-bar">
+      <!-- is there a more semantic way than div?-->
+      <input id="from" type="text" placeholder="From" />
+      <input id="to" type="text" placeholder="Destination" />
+      <!-- include drop-down for country only-->
+      <input id="depart" type="text" placeholder="Depart" />
+      <input id="return" type="text" placeholder="Return" />
+      <input id="search" type="submit" value="Search Flights!" />
+    </form>
+
+    <div id="search-results">
+      <!--emmet = div>p#result$.results*9 ------- main more semantic than div?  -->
+      <p id="result1" class="results"></p>
+      <p id="result2" class="results"></p>
+      <p id="result3" class="results"></p>
+      <p id="result4" class="results"></p>
+      <p id="result5" class="results"></p>
+      <p id="result6" class="results"></p>
+      <p id="result7" class="results"></p>
+      <p id="result8" class="results"></p>
+      <p id="result9" class="results"></p>
+    </div>
+  </body>
+</html>
