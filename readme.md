@@ -11,7 +11,7 @@
 - HTML4
 - CSS3
     - Materialize CSS Framework 
-- JAvaScript
+- JasvaScript
 - JQuery
 - Skyscanner API
 
