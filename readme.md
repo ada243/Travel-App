@@ -14,6 +14,7 @@
 - JasvaScript
 - JQuery
 - Skyscanner API
+- Deployed using https://vercel.com/dashboard
 
 --- 
 
