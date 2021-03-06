@@ -29,10 +29,9 @@ function handleGetData(event) {
             console.log(flightData)
             render();
         },
-        (error) =>{
+        (error) => {
             console.log("bad request", error)
-        }
-        );
+        });
     }
     ////////////////////ajax request to bing image search api in order to get thumbnail for each search result///////////////////////////////////////
         function render() {
