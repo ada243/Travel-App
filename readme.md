@@ -2,7 +2,7 @@
 
 --- 
 
- *The Cheap Nomad* uses the Skyscanner API to receive user inputs for travel destinations and dates in order to return the current cheapest flight accoridng to the given parameters.
+ *The Cheap Nomad* uses the Skyscanner API to receive user inputs for travel destinations and dates in order to return live prices for the cheapest flights accoridng to the given parameters.
 
 --- 
 
