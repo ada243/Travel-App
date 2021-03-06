@@ -19,7 +19,7 @@
 
 ## Initial WireFrame
 
-[Travel App Wireframe] https://imgur.com/mNjBFNI 
+![Travel App Wireframe] (https://imgur.com/mNjBFNI) 
 
 ---
 
