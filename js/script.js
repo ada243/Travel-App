@@ -42,7 +42,8 @@ function handleGetData(event) {
         let newDate = date.split("").splice(0, (date.length-9)).join("");
         
         for (let i = 0; i < results.length ; i++){
-                $(results[i]).append(`<p>${flightData.Carriers[i].Name}`)
+                $(results[i]).addClass("result-show")
+                $(results[i]).append(`<h6>${flightData.Carriers[i].Name}`)
                 $(results[i]).append(`<p>${flightData.Places[1].Name}<p>`)
                 $(results[i]).append(`<p>${flightData.Currencies[0].Symbol}` + `${flightData.Quotes[i].MinPrice}`)
                 $(results[i]).append(`<p>${newDate}<p>`)

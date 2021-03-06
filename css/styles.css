@@ -1,3 +1,18 @@
 nav {
-  color: white;
+  margin-bottom: 41px;
+  border-radius: 3%;
+}
+
+#search-bar {
+  padding: 15px;
+  border-radius: 3%;
+}
+
+.result-show {
+  width: 200px;
+  background-color: rgb(168, 188, 226);
+  border: solid 1px black;
+  text-align: center;
+  border-radius: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
