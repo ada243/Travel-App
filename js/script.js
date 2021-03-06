@@ -41,29 +41,21 @@ function handleGetData(event) {
         let date = flightData.Quotes[0].OutboundLeg.DepartureDate
         let newDate = date.split("").splice(0, (date.length-9)).join("");
         
-        for (let i = 0; i < results.length ; i++){
-                $(results[i]).addClass("result-show")
-                $(results[i]).append(`<h6>${flightData.Carriers[i].Name}`)
-                $(results[i]).append(`<p>${flightData.Places[1].Name}<p>`)
-                $(results[i]).append(`<p>${flightData.Currencies[0].Symbol}` + `${flightData.Quotes[i].MinPrice}`)
-                $(results[i]).append(`<p>${newDate}<p>`)
+        for (let i = 0; i < 4 ; i++){
+                $("#search-results").addClass("result-show")
+                $("#search-results").append(`<h5>${flightData.Carriers[i].Name}`)
+                $("#search-results").append(`<h5>${flightData.Places[1].Name}<p>`)
+                $("#search-results").append(`<p>${flightData.Currencies[0].Symbol}` + `${flightData.Quotes[i].MinPrice}`)
+                $("#search-results").append(`<p>${newDate}<p>`)
                 if(flightData.Quotes[i].Direct){
-                    $(results[i]).append(`<p>Direct Flight!<p>`)
+                    $("#search-results").append(`<p>Direct Flight!<p>`)
                 } else {
-                    $(results[i]).append(`<p>This flight has stops<p>`)
+                    $("#search-results").append(`<p>This flight has stops<p>`)
                 }
         }
     }
     
-    console.log($(results[0]))
-    
-    
-    
-    
-    
-    
-    
-    
+    console.log($(results[0]))   
     
     
     
