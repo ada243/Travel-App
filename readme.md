@@ -19,7 +19,7 @@
 
 ## Initial WireFrame
 
-<img src="https://imgur.com/mNjBFNI"/> 
+<img src="https://imgur.com/wCoiiZS" /> 
 
 ---
 
