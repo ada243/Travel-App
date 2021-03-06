@@ -51,6 +51,9 @@ Simply head over to https://the-cheap-nomad.vercel.app/
 - Styling 
   - I would like to clean up the styling. While I do not expect this to be a full webpage, I would like to display the content better and be more responsive. I also believe the accessibility is extremely important so I would like to apply more accessibility measures as well.
 
+- Search-bar
+-   I would like to have the destinations and time captured in natural language instead of using IATA codes etc!
+
 ### For Myself
 - While I do have far to go, this was still my first app that I have built from scratch so I am happy with this. Moving forward, I would like to learn how to add more functionality and interaction to my web applications. I believe more practice with JQuery is in my  future. 
 
